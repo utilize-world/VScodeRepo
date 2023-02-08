@@ -1,0 +1,20 @@
+{
+    "editor.formatOnPaste": true, //编辑器自动格式化粘贴
+    "editor.formatOnSave": true, //保存文件后进行代码格式化
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": true,
+    "C_Cpp.errorSquiggles": "enabled", //缩略图开启
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "type_traits": "cpp",
+        "future": "cpp",
+        "stdbool.h": "c",
+        "stack": "cpp",
+        "vector": "cpp"
+    },
+    "go.gopath": "D:/Go/bin"
+    /*  //"code-runner.executorMap": {
+    //     "python": "set PYTHONIOENCODING=utf8 && python ",
+    //     "javascript": "D:\node.exe",
+    //} */
+}
