@@ -1,0 +1,21 @@
+ctrl + N 创建新文件
+ctrl + M K 选择新文件的语言
+Ctrl + shift + e 移动到资源管理区
+再按一次返回工作区
+ctrl + w 关闭当前窗口 
+F11全屏显示
+ctrl + ` 切换到终端或者隐藏终端
+ctrl + shift + G 打开git控制窗口
+ctrl + tab 切换文件装口
+ctrl + shift + p 打开搜索命令
+打开搜索栏后 
+ctrl + p 转到文件
+
+
+ctrl + o 打开文件
+ctrl + shift + o 打开文件夹
+ctrl + shift + L 选择所有匹配项
+alt + shift + up 向上复制到当前行
+alt + up 当前行向上移动
+
+ctrl + / 多行注释
