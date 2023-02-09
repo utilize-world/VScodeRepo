@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int pivotIndex(int *nums, int numsSize) //鎵惧埌鏁扮粍涓績涓嬫爣锛屼护pivot宸﹁竟涔嬪拰绛変簬鍙宠竟涔嬪拰锛屽鏋滄病鏈夎繑鍥�-1
+int pivotIndex(int *nums, int numsSize) // 让pivot两边的数组元素之和相等
 {
     int i, pivotPos = 0;
     int leftsum, totalsum = 0;
