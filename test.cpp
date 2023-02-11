@@ -1,14 +1,41 @@
-#include <stdio.h>
-void test(int &x)
+#include <vector>
+#include <iostream>
+
+class test
 {
-    x = 100;
-    printf("the value of x is %d\n", x);
-}
+public:
+    test()
+    {
+        std::vector<int> a(3, 2);
+        std::vector<int> b(3, 3);
+        std::vector<int> c(3, 1);
+        A.push_back(a);
+        A.push_back(b);
+        A.push_back(c);
+        A.push_back(std::vector<int>(3, 0));
+        A.pop_back(); // åˆ åŽ»ä¸€æ•´è¡Œ
+    }
+
+public:
+    std::vector<std::vector<int>> A;
+    void printVector2(std::vector<std::vector<int>> test_2D_Vector)
+    {
+        for (auto i : test_2D_Vector) // å¯¹äºŒç»´æ•°ç»„è¿›è¡Œè¿­ä»£
+        {
+            for (auto j : i)
+            {
+                std::cout << j << " ";
+            }
+            std::cout << std::endl;
+        }
+    }
+
+private:
+    int &&a = 20;
+};
 
 int main()
 {
-    int x = 1;
-    printf("µ÷ÓÃtestÇ°,x=%d\n", x);
-    test(x);
-    printf("µ÷ÓÃtestºó,x=%d\n", x);
+    test *A = new test();
+    A->printVector2(A->A);
 }
